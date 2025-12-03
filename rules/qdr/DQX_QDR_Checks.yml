@@ -3,7 +3,7 @@ qdr_qc_1:
     check:
       arguments:
         expression: bith_date and ssn is not null
-        msg: Flag if bith_date and ssn is not null 
+        msg: Flag if bith_date and ssn is not null and show
       function: sql_expression
     user_metadata:
       table_name: member
